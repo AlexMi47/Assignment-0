@@ -8,7 +8,21 @@
  * 
  * This file is part of the KIT107 Assignment 0.
  * 
+ * Program Use: You must write a Python (or Java) program to define two str variables with values
+'A' and '$' and to swap their values.
  */
-public class assig0task1 {
-    
+public class assig0task1
+{
+    // Declaring my Constant Identifiers as per Assessment Brief
+    public static final char INITIAL_VALUE_ONE = 'A';
+    public static final char INITIAL_VALUE_TWO = '$';
+
+    public static void main(String[] args) 
+    {
+        // Declaring the variables to be used in the program
+        char first_value;  // Variable to hold the first value
+        char second_value; // Variable to hold the second value
+        char temp_value;  // Temporary variable to assist in swapping the values
+
+    }   
 }
