@@ -23,6 +23,16 @@ public class assig0task1
         char first_value;  // Variable to hold the first value
         char second_value; // Variable to hold the second value
         char temp_value;  // Temporary variable to assist in swapping the values
+                
+        // Initialising the variables with the constant values
+        first_value = INITIAL_VALUE_ONE;
+        second_value = INITIAL_VALUE_TWO;
 
+        // Displaying the initial values before swapping
+        System.out.println("Before swapping:");
+        System.out.println("First Value: " + first_value);
+        System.out.println("Second Value: " + second_value);
+
+       
     }   
 }
