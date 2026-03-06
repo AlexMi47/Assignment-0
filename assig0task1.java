@@ -9,7 +9,7 @@
  * This file is part of the KIT107 Assignment 0.
  * 
  * Program Use: You must write a Python (or Java) program to define two str variables with values
-'A' and '$' and to swap their values.
+   'A' and '$' and to swap their values.
  */
 public class assig0task1
 {
