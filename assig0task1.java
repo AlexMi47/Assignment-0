@@ -29,10 +29,19 @@ public class assig0task1
         second_value = INITIAL_VALUE_TWO;
 
         // Displaying the initial values before swapping
-        System.out.println("Before swapping:");
-        System.out.println("First Value: " + first_value);
-        System.out.println("Second Value: " + second_value);
+        System.out.println("Before swapping the Values:");
+        System.out.println("The First Value is: " + first_value);
+        System.out.println("The Second Value is: " + second_value);
 
-       
+        // Swapping the values using a temporary variable
+
+        temp_value = first_value; // Store the value of first_value in temp_value
+        first_value = second_value; // Assign the value of second_value to first_value
+        second_value = temp_value; // Assign the value stored in temp_value back to second_value
+        
+        // Displaying the values after swapping
+        System.out.println("After swapping the Values:");
+        System.out.println("The First Value is: " + first_value);
+        System.out.println("The Second Value is: " + second_value);
     }   
 }
