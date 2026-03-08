@@ -13,9 +13,9 @@
  */
 public class assig0task1
 {
-    // Declaring my Constant Identifiers as per Assessment Brief
-    public static final char INITIAL_VALUE_ONE = 'A';
-    public static final char INITIAL_VALUE_TWO = '$';
+    // Declaring the Constant Identifiers as per Assessment Brief
+    public static final char INITIAL_VALUE_ONE = 'A'; // Constant for the initial value of the first variable
+    public static final char INITIAL_VALUE_TWO = '$'; // Constant for the initial value of the second variable
 
     public static void main(String[] args) 
     {
